@@ -1,15 +1,29 @@
-//
-//  FinalView.swift
-//  SST INC
-//
-//  Created by HU YIXIANG ETHAN (SST) on 25/05/2024.
-//
-
 import SwiftUI
 
 struct FinalView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("🎉 You have found the criminals!! 🎉")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .foregroundColor(.green)
+                .padding()
+            
+            Text("Congratulations!")
+                .font(.title)
+                .foregroundColor(.blue)
+                .padding(.bottom, 20)
+            
+            Image(systemName: "checkmark.seal.fill")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 100, height: 100)
+                .foregroundColor(.green)
+        }
+        .padding()
+        .background(Color.yellow.opacity(0.3)) // Soft background color
+        .cornerRadius(20)
+        .shadow(radius: 10)
     }
 }
 
