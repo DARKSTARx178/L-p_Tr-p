@@ -166,11 +166,11 @@ struct INChatView: View {
         Msg(text: "see you there", whoTexted: 1),
         Msg(text: "ok", whoTexted: 0),
         Msg(text: "😔✊", whoTexted: 0),
-        Msg(text: "ive sent u photos of the plan", whoTexted: 0),
-        Msg(text: "break into the vault and take the incoin to the world trade center", whoTexted: 0),
-        Msg(text: "🫡", whoTexted: 1),
-        Msg(text: "make sure to go after 11.30 p.m. and move fast. get the incoin before the guards see you. In each box there should be 100000 incoin, take 10 of those for 1000 000.", whoTexted: 0),
-        Msg(text: "got it!", whoTexted: 1)
+        Msg(text: "ive sent u photos of the plan", whoTexted: 1),
+        Msg(text: "break into the vault and take the incoin to the world trade center", whoTexted: 1),
+        Msg(text: "🫡", whoTexted: 0),
+        Msg(text: "make sure to go after 11.30 p.m. and move fast. get the incoin before the guards see you. In each box there should be 100000 incoin, take 10 of those for 1000 000.", whoTexted: 1),
+        Msg(text: "got it!", whoTexted: 0)
     ]
     
     var body: some View {
