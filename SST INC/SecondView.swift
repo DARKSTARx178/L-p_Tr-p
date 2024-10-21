@@ -118,6 +118,7 @@ struct InputView: View {
 struct SearchINCView: View {
     var body: some View {
         VStack {
+            Image("Avyan")
             Text("Profile: Tall Avyan")
             Text("SEARCH HISTORY")
                 .font(.largeTitle)
@@ -133,6 +134,7 @@ struct SearchINCView: View {
 struct INCpassView: View {
     var body: some View {
         VStack {
+            Image("Avyan")
             Text("Name: AVYAN MEHRA TALL")
                 .font(.largeTitle)
             Text("F/N No. T1111111A")
